@@ -1,0 +1,3 @@
+Registered model: OMR_Rejection_Model
+Selected run: d8da23b7d6a7431a8bb821fc3f6a8343
+Selected candidate: Logistic Regression

@@ -1,0 +1,11 @@
+flowchart LR
+ A[Raw synthetic OMR records<br/>V1 + V2] --> B[Data validation and preprocessing]
+ B --> C[Feature engineering<br/>scan_quality_index<br/>marking_error_ratio]
+ C --> D[(Reusable feature store<br/>artifacts/feature_store.csv)]
+ D --> E[Train Logistic Regression<br/>and Random Forest]
+ E --> F[Metrics comparison<br/>accuracy precision recall F1]
+ F --> G[MLflow tracking +<br/>OMR_Rejection_Model registry]
+ G --> H[FastAPI /predict]
+ H --> I[Scan Accepted or<br/>Manual Verification Required]
+ J[GitHub Actions] --> B
+ J --> E
