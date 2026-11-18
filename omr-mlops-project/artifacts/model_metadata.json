@@ -1,0 +1,16 @@
+{
+  "selected_model": "Logistic Regression",
+  "positive_label": "Manual Verification Required",
+  "features": [
+    "dpi",
+    "rotation_angle",
+    "print_contrast_score",
+    "alignment_marker_visibility",
+    "multiple_marked_questions",
+    "blank_answer_percentage",
+    "sheet_damage_score",
+    "scan_quality_index",
+    "marking_error_ratio",
+    "scanner_type"
+  ]
+}
